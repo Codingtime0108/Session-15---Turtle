@@ -5,9 +5,9 @@ spiral.title("Spiral")
 mypen = turtle.Turtle()
 size = 0
 while True:
-    for i in range(4):
+    for i in range(5):
         mypen.fd(size+1)
-        mypen.left(90)
+        mypen.left(75)
         size = size - 5
     size = size + 1
 turtle.done()
